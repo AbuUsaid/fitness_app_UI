@@ -633,6 +633,10 @@ video {
   margin-top: 0.5rem;
 }
 
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -645,12 +649,24 @@ video {
   height: 800px;
 }
 
+.h-60 {
+  height: 15rem;
+}
+
+.h-10 {
+  height: 2.5rem;
+}
+
 .w-10 {
   width: 2.5rem;
 }
 
 .w-\[375px\] {
   width: 375px;
+}
+
+.w-60 {
+  width: 15rem;
 }
 
 .items-center {
@@ -729,6 +745,14 @@ video {
 
 .pt-6 {
   padding-top: 1.5rem;
+}
+
+.pt-8 {
+  padding-top: 2rem;
+}
+
+.pt-7 {
+  padding-top: 1.75rem;
 }
 
 .text-left {
