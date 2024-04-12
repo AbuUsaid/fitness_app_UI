@@ -764,6 +764,10 @@ video {
   height: 1.5rem;
 }
 
+.h-36 {
+  height: 9rem;
+}
+
 .max-h-40 {
   max-height: 10rem;
 }
@@ -934,6 +938,11 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#8CB1FF\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(140 177 255 / var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-r {
