@@ -426,101 +426,36 @@
       <div class="w-[375px] h-[800px] border border-red-500 mx-auto">
         <img src="/assets/Status.png" alt="Status" />
         <div>
-          <div class="flex justify-start items-center pt-1 pl-2">
+          <div class="flex justify-between items-center pt-1 pl-3 mb-8">
+            <img
+              src="/assets/chevron-left.png"
+              alt="back button"
+              class="border border-red-500 mr-12"
+            />
             <h2
-              class="text-left font-roboto font-bold text-xl leading-6 mb-2 mx-3 pt-6 pb-3"
+              class="text-start font-roboto font-bold text-xl leading-6 mb-2 mx-4 pt-6 pb-5 border border-red-500 flex-1"
             >
-              Welcome Back
+              Workout Tracker
             </h2>
           </div>
+          <!-- graph -->
           <div>
-            <!-- input form*4 -->
-            <div class="relative border border-red-500">
-              <form class="pt-6">
-                <div class="flex flex-col gap-4 mx-3">
-                  <input
-                    type="emal"
-                    placeholder="Email"
-                    class="w-85 h-12 rounded-lg bg-gray-100 text-sm font-monserrat font-bold text-gray-500 pl-3"
-                  />
-                  <input
-                    type="password"
-                    placeholder="Password"
-                    class="w-85 h-12 rounded-lg bg-gray-100 text-sm font-monserrat font-bold text-gray-500 pl-3"
-                  />
-                </div>
-              </form>
-              <!-- forgot password -->
-              <div class="flex items-center mb-6 mt-3">
-                <label
-                  for="forgot password"
-                  class="text-sm font-monserrat font-medium text-gray-500 ml-3 underline mb-10"
-                >
-                  Forgot your password?
-                </label>
-              </div>
-
-              <!--⚠️ the below divs help in aligning of buttons and for creating gap -->
-              <div class="border border-blue-600 h-10"></div>
-              <div class="border border-blue-600 h-10"></div>
-              <div class="border border-blue-600 h-3"></div>
+            <!-- Good job and less thatn 320 cals -->
+            <div class='flex items-center justify-end mr-10'>
+              <h2 class="font-monserrat text-xs font-normal leading-tight text-left text-gray-700">Good job </h2>
+              <h2 class="font-monserrat text-xs font-normal leading-tight text-left text-gray-700 ml-8">less than 320cal</h2>
+            </div>
+            <div class='flex justify-center'>
+              <img src="/assets/Chart.png" alt="graph">
             </div>
 
-            <!-- button here -->
-            <div
-              class="relative flex justify-center border border-red-500 mt-11"
-            >
-              <button
-                class="w-95 h-12 rounded-lg bg-gradient-to-r from-[#7B91FF] to-[#95BEFF] text-white font-monserrat font-bold text-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 flex items-center flex-1 justify-center px-10 my-10 mx-3"
-              >
-                <h2 class="p-12">Sign in</h2>
-              </button>
-            </div>
-            <!-- or -->
-            <div class="flex items-center justify-center">
-              <div class="w-155 h-px border-solid border-gray-100 mr-3">
-                <img src="/assets/Line.png" alt="" />
-              </div>
-              <span class="text-lg text-black">Or</span>
-              <div class="w-155 h-px border-solid border-gray-100 ml-3">
-                <img src="/assets/Line.png" alt="" />
-              </div>
-            </div>
-            <!-- company logos -->
-            <div class="flex justify-center items-center mt-4">
-              <button
-                class="w-20 h-20 rounded-lg border border-gray-400 mr-4 flex justify-center items-center"
-              >
-                <img
-                  src="/assets/google.png"
-                  alt="Google Logo"
-                  class="w-15 h-15 object-cover rounded-full"
-                />
-              </button>
+          </div>
+         
 
-              <button
-                class="w-20 h-20 rounded-lg border border-gray-400 flex justify-center items-center"
-              >
-                <img
-                  src="/assets/fb.png"
-                  alt="Facebook Logo"
-                  class="w-15 h-15 object-cover rounded-full"
-                />
-              </button>
-            </div>
-            <!-- Don't have an account -->
-            <div class="flex justify-center mt-4">
-              <label
-                for="no account"
-                class="text-sm font-monserrat font-medium text-black ml-3 underline"
-              >
-                Don't have an account yet?
-                <span
-                  class="font-monserrat text-xs font-medium text-[#9FB2FF] underline"
-                  >Create an account</span
-                >
-              </label>
-            </div>
+          
+          
+           
+           
           </div>
         </div>
       </div>
